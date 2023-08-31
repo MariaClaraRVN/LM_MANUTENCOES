@@ -53,6 +53,7 @@ body {
 }
 
 .conteudo-principal-escrito {
+    align-items: center;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -80,6 +81,8 @@ body {
 }
 
 .conteudo-secundario {
+    word-wrap: break-word;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +102,7 @@ body {
 }
 
 .conteudo-secundario-paragrafo {
-    /*word-wrap: break-word; /* Quebra de linha automática */
+    /*word-break: break-word; /* Quebra de linha automática */
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -153,7 +156,8 @@ body {
         margin-top: 24px;
     }
 
-    .conteudo-secundario-paragrafo1 {
+    .conteudo-secundario-paragrafo {
+        word-break: break-word;
         flex-direction: column;
         align-items: center;
         gap: 24px;
