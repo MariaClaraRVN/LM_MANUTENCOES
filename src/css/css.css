@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background-color: rgb(51, 236, 186);
+    background-color: rgb(187, 223, 213);
 }
 
 .cabecalho {
@@ -65,7 +65,7 @@ body{
     font-family:'Sarala', sans-serif; 
     font-weight: 400;
     font-size: 24px;
-    color: #c7ba04;
+    color: #797108;
 }
 
 .cabecalho-menu-item:hover{
@@ -86,7 +86,7 @@ body{
     font-family: 'Righteous' , cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #c7ba04;
+    color: #797108;
     margin-bottom: 16px;
 }
 
