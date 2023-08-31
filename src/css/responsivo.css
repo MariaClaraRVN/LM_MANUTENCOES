@@ -9,9 +9,8 @@
 }
 
 
-@media (max-width:767px) {
+@media (max-width:654) {
     body::before{
-        background-image: url("../imagens/bg-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -32,8 +31,34 @@
     }
 }
 
-@media (max-width:360px){
+@media (max-width:654PX){
     .cabecalho .titulo{
         font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .cabecalho{  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    }
+
+    main {
+        padding: 0 5px;
+        justify-content: start;
+    }
+
+    .cabecalho .titulo{
+        font-size: 22px;
+    }
+
+    .selecao-de-personagens .personagem.grande{
+        display: none;
+    }
+
+    .cabecalho-imagem{
+        display: block;
     }
 }
